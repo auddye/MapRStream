@@ -23,8 +23,6 @@ public class SampleConsumer {
         consumer.subscribe(topics);
 
         // Set the timeout interval for requests for unread messages.
-        long pollTimeOut = 10000;
-
         boolean stop = false;
         int pollTimeout = 10000;
         while (!stop) {
@@ -55,7 +53,8 @@ public class SampleConsumer {
                 "org.apache.kafka.common.serialization.StringDeserializer");
         props.put("value.deserializer",
                 "org.apache.kafka.common.serialization.StringDeserializer");
-
+        props.put("auto.offset.reset",
+                "latest");
 
         consumer = new KafkaConsumer<String, String>(props);
     }

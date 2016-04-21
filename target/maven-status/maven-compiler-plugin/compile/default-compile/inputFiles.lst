@@ -1,2 +1,3 @@
+/mapr/my2.cluster.com/github/MapRStream/src/main/java/openkb/stream/SampleProducer_1sec.java
 /mapr/my2.cluster.com/github/MapRStream/src/main/java/openkb/stream/SampleProducer.java
 /mapr/my2.cluster.com/github/MapRStream/src/main/java/openkb/stream/SampleConsumer.java

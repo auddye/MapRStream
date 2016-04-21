@@ -43,6 +43,8 @@ public class SampleProducer {
                 "org.apache.kafka.common.serialization.StringSerializer");
         props.put("key.serializer",
                 "org.apache.kafka.common.serialization.StringSerializer");
+        props.put("streams.parallel.flushers.per.partition",
+                "true");
         producer = new KafkaProducer<String, String>(props);
     }
 }
