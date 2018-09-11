@@ -1,4 +1,5 @@
 openkb/stream/SampleProducer_1sec.class
-openkb/stream/SampleProducer.class
-openkb/stream/SampleConsumer_CG1.class
 openkb/stream/SampleConsumer.class
+openkb/stream/SampleProducer.class
+openkb/stream/SampleProducer_1sec_json_param.class
+openkb/stream/SampleConsumer_CG1.class

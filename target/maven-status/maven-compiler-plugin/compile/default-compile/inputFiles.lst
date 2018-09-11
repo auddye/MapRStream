@@ -1,4 +1,5 @@
-/mapr/my2.cluster.com/github/MapRStream/src/main/java/openkb/stream/SampleProducer_1sec.java
-/mapr/my2.cluster.com/github/MapRStream/src/main/java/openkb/stream/SampleProducer.java
-/mapr/my2.cluster.com/github/MapRStream/src/main/java/openkb/stream/SampleConsumer.java
-/mapr/my2.cluster.com/github/MapRStream/src/main/java/openkb/stream/SampleConsumer_CG1.java
+/mapr/my610beta.cluster.com/git/MapRStream/src/main/java/openkb/stream/SampleConsumer.java
+/mapr/my610beta.cluster.com/git/MapRStream/src/main/java/openkb/stream/SampleConsumer_CG1.java
+/mapr/my610beta.cluster.com/git/MapRStream/src/main/java/openkb/stream/SampleProducer_1sec_json_param.java
+/mapr/my610beta.cluster.com/git/MapRStream/src/main/java/openkb/stream/SampleProducer_1sec.java
+/mapr/my610beta.cluster.com/git/MapRStream/src/main/java/openkb/stream/SampleProducer.java
